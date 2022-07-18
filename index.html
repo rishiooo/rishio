@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RISHIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/preloader.css">
+</head>
+
+<body>
+    <div class="no-scroll-preload">
+        <!-- loader -->
+        <div class="loader-container">
+            <div class="atom">
+                <div class="electron"></div>
+                <div class="electron-alpha"></div>
+                <div class="electron-omega"></div>
+            </div>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">About</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1><i>RISHIO</i></h1>
+        <h2>Pentester / StoryTeller / Musician / Web Developer</h2>
+        <div id="menu">
+            <a onclick="showabout()">About</a>
+            <a onclick="showwork()">Work</a>
+            <a onclick="showcontact()">Contact</a>
+        </div>
+        <table>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.facebook.com/profile.php?id=100005180958663" class="social"><i class="fab fa-facebook"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://github.com/rishiooo/spotify-clone" class="social"><i class="fab fa-github"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.instagram.com/_r_i_s_h_i_o_/" class="social"><i class="fab fa-instagram"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://www.linkedin.com/in/abhishek-ganguly-a760991a8/" class="social"><i class="fab fa-linkedin"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1><i>MY WORKS</i></h1>
+        <section>
+            <p>“Opportunity is missed by most people because it is dressed in overalls and looks like work.”</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <a href="#" style="text-decoration: none; color:black">
+
+                        <h2>Audio Story</h2>
+                        <p>When you read a book, the story definitely happens inside your head. When you listen, it seems to happen in a little cloud all around it, like a fuzzy knit cap pulled down over your eyes.</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="music.html" style="text-decoration: none; color:black">
+                        <h2>Music video</h2>
+                        <p>Music is the language of the spirit. It opens the secret of life bringing peace, abolishing strife</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" style="text-decoration: none; color:black">
+
+                        <h2>Poem</h2>
+                        <p>If I feel physically as if the top of my head were taken off, I know that is poetry.</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" style="text-decoration: none; color:black">
+
+                        <h2>Developed web pages</h2>
+                        <p>We don't just build websites, we build websites that SELLS</p>
+                    </a>
+                </div>
+
+
+        </section>
+        </div>
+        <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About Me</h1>
+            <section>
+                <h3>Hiiiiii! I'm Abhishek Ganguly.</h3>
+                <p>A boy from a very small town with some big hope trying to fix errors in life. Bugs are not only in website or apps we have bugs in our work too and I am happy to find the bugs in our real life thats the real bug bounty. Viruses are availaible
+                    to steal data, trying to stop these viruses as a cyber surfer and a huge love with my guitar....... <br>"Spread love everywhere you go. Let no one ever come to you without leaving happier." </p>
+                <h1><u>Education</u></h1>
+                <p>1) Completed Secondary School of Education From Kendriya Vidyalaya Lumding<br> 2)Pursuing Btech From Shivalik College Of Engineering Dehradun. </p>
+                <h1>Work Experience</h1>
+                <p>
+                    Content writer at baskethunt (current position)<br> Journalism Intern at TRUTH UNFOLD MEDIA (2 months)<br> Brand Ambassador Intership at Tutedude (1 month)
+
+                </p>
+        </div>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>------CONTACT ME--------</h1>
+        <section>
+            <h2>----you + me = awesome----</h2>
+            <p>
+                <form>
+                    <input type="text" placeholder="name" required>
+                    <input type="email" placeholder="email" required><br>
+                    <textarea placeholder="your message" required rows="5"></textarea><br>
+                    <button class="btn_one">send</button>
+                </form>
+            </p>
+        </section>
+    </div>
+    <div id="footer">
+        made by Abhishek Ganguly with Bhalobasha
+    </div>
+    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
