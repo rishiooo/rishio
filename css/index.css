@@ -82,9 +82,8 @@ body {
 }
 
 .card-wrapper {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 2rem;
+    grid-column-gap: 3rem;
     grid-row-gap: 2rem;
 }
 
